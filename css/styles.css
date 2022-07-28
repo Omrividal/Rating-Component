@@ -1,0 +1,145 @@
+
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  color: #fff;
+  text-align: center;
+  justify-content:center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+}
+
+/* Submit form */
+
+.starIcon {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(216, 12%, 54%);
+  margin-top: 20px;
+  margin-left: 20px;
+  }
+
+.fa-star {
+  color: hsl(25, 97%, 53%);
+  margin-top: 5px;
+}
+
+.submitForm {
+  display: grid;
+  border: none;
+  border-radius: 15px;
+  background-color: hsl(213, 19%, 18%);
+  width: 400px;
+  height: 400px;
+  margin: 100px auto 0;
+}
+
+.submitItems {
+  text-align: left;
+  padding: 15px 15px 0 15px;
+}
+
+.buttons {
+ text-align: center;
+ padding-top: 25px;
+}
+
+#wraper {
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  background-color: hsl(216, 12%, 24%);
+  color: hsl(217, 12%, 63%);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+
+.btn:focus {
+  background: hsl(217, 12%, 63%);
+  color: #fff;
+}
+
+.submitButton {
+  width: 95%;
+  text-align: center;
+  font-size: 1rem;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 25px;
+  letter-spacing: 3.5px;
+  height: 40px;
+  margin: 25px 0 0 8px;
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+/* Thank you form */
+.hidden {
+  display: none;
+}
+
+.thankYou {
+  display: grid;
+  border: none;
+  border-radius: 15px;
+  background-color: hsl(213, 19%, 18%);
+  width: 400px;
+  height: 400px;
+  margin: 100px auto 0;
+  text-align: center;
+}
+
+.thankYouImage {
+ margin: auto;
+ width: 100px;
+ height: 80px;
+ padding-top: 15px;
+}
+
+.selectedNum {
+margin: auto;
+color: hsl(25, 97%, 53%);
+border: none;
+border-radius: 10px;
+background-color:  hsl(216, 12%, 24%);
+width: 50%;
+}
+
+.thankHead {
+  margin: 1px auto;
+  font-size: 1.8rem;
+}
+
+.pThank {
+  margin: -20px auto 0 auto;
+  width: 85%;
+}
